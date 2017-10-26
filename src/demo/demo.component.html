@@ -1,0 +1,77 @@
+<div style="padding:60px;background-color:#FAEBFF">
+
+  single layer icons
+  <div class="iconBox">
+    <div class="iconItem">
+      <cloukit-icon foregroundIcon="check" foregroundIconColor="#3FA051"></cloukit-icon><br>
+      check
+    </div>
+    <div class="iconItem">
+      <cloukit-icon foregroundIcon="cross" foregroundIconColor="#A03F3F"></cloukit-icon><br>
+      cross
+    </div>
+    <div class="iconItem">
+      <cloukit-icon foregroundIcon="info" foregroundIconColor="#3F68A0"></cloukit-icon><br>
+      info
+    </div>
+    <div class="iconItem">
+      <cloukit-icon foregroundIcon="exclamation" foregroundIconColor="#A0533F"></cloukit-icon><br>
+      exclamation
+    </div>
+    <div class="iconItem">
+      <cloukit-icon foregroundIcon="chevronLeft" foregroundIconColor="#6F6F6F"></cloukit-icon><br>
+      chevronLeft
+    </div>
+    <cloukit-icon foregroundIcon="chevronUp" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="chevronRight" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="chevronDown" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="arrowLeft" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="arrowUp" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="arrowRight" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="arrowDown" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="circle" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="triangle" foregroundIconColor="#6F6F6F"></cloukit-icon>
+    <cloukit-icon foregroundIcon="squareRounded" foregroundIconColor="#6F6F6F"></cloukit-icon>
+  </div>
+
+
+  <br><br>
+  <cloukit-icon
+    combine="mask"
+    backgroundIcon="triangle"
+    foregroundIcon="exclamation"
+    backgroundIconColor="#00ffff"
+  ></cloukit-icon>
+
+  <br><br>
+  A multicolor icon composed of two stacked icons
+  <br>
+  <cloukit-icon
+    combine="stack"
+    foregroundIcon="exclamation"
+    foregroundIconColor="#00ffff"
+    backgroundIcon="triangle"
+    backgroundIconColor="#0f0eff"
+  ></cloukit-icon>
+
+  <br><br>
+  Use the <code>transform</code> attribute to be applied to the foreground icon:<br>
+  <code>rotate(45, 256, 256), scale(0.7), translate(100, -130)</code>
+  <br><br>
+  <cloukit-icon
+    combine="stack"
+    foregroundIcon="chevronUp"
+    foregroundIconColor="#00ffff"
+    backgroundIcon="squareRounded"
+    backgroundIconColor="#0f0eff"
+  ></cloukit-icon>
+  →
+  <cloukit-icon
+    combine="stack"
+    foregroundIcon="chevronUp"
+    foregroundIconColor="#00ffff"
+    foregroundIconTransform="rotate(45, 256, 256), scale(0.7), translate(100, -130)"
+    backgroundIcon="squareRounded"
+    backgroundIconColor="#0f0eff"
+  ></cloukit-icon>
+</div>
