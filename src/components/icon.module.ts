@@ -28,5 +28,20 @@ export class CloukitIconModule {
         this.iconService.registerIcon(iconNames[i], CloukitIcons[iconNames[i]]);
       }
     }
+    //
+    // Register default icon sizes
+    //
+    const defaultIconSizes = {
+      small: 24,
+      medium: 32,
+      large: 48,
+      xlarge: 64,
+    };
+    const sizeKeys = Object.keys(defaultIconSizes);
+    for (let i=0; i<sizeKeys.length; i++) {
+      if (this.iconService.getIconSize(sizeKeys[i]) === undefined) {
+        this.iconService.registerIconSize(sizeKeys[i], defaultIconSizes[sizeKeys[i]]);
+      }
+    }
   }
 }

@@ -52,11 +52,6 @@ export class CloukitIconComponent implements OnInit {
   _iconWidth: number;
   _foregroundIconPath: string;
   _backgroundIconPath: string;
-  _iconWidths = {
-    small: 32,
-    medium: 48,
-    large: 64,
-  };
 
   @Input()
   size = 'small';
@@ -87,6 +82,6 @@ export class CloukitIconComponent implements OnInit {
   ngOnInit() {
     this._foregroundIconPath = this.iconService.getIconPathD(this.foregroundIcon);
     this._backgroundIconPath = this.iconService.getIconPathD(this.backgroundIcon);
-    this._iconWidth = this._iconWidths[this.size];
+    this._iconWidth = this.iconService.getIconSize(this.size);
   }
 }
