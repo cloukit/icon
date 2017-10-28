@@ -4,7 +4,7 @@
  * https://github.com/cloukit/legal
  */
 import { Input, Component, OnInit } from '@angular/core';
-import { IconService } from './icon.service';
+import { CloukitIconService } from './icon.service';
 
 @Component({
   selector: 'cloukit-icon',
@@ -77,7 +77,7 @@ export class CloukitIconComponent implements OnInit {
   @Input()
   backgroundIconTransform = '';
 
-  constructor(private iconService: IconService) { }
+  constructor(private iconService: CloukitIconService) { }
 
   ngOnInit() {
     this._foregroundIconPath = this.iconService.getIconPathD(this.foregroundIcon);

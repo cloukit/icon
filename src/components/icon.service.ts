@@ -6,7 +6,7 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class IconService {
+export class CloukitIconService {
 
   /** Holds all registered icons */
   private _icons = new Map<string, string>();

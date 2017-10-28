@@ -6,18 +6,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CloukitIconComponent } from './icon.component';
-import { IconService } from './icon.service';
+import { CloukitIconService } from './icon.service';
 import { CloukitIcons } from './icon.paths';
 
 @NgModule({
   imports: [ CommonModule ],
   exports: [ CloukitIconComponent ],
   declarations: [ CloukitIconComponent ],
-  providers: [ IconService ],
+  providers: [ CloukitIconService ],
   entryComponents: [ ],
 })
 export class CloukitIconModule {
-  constructor(private iconService: IconService) {
+  constructor(private iconService: CloukitIconService) {
     //
     // Register default icons with their names.
     // If already another icon is registered, it will not be overridden.
