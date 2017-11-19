@@ -9,6 +9,7 @@ import { Story01Component } from './stories/story-01-different-sizes';
 import { Story02Component } from './stories/story-02-stacked-multi-layer-icons';
 import { Story03Component } from './stories/story-03-masked-multi-layer-icons';
 import { Story04Component } from './stories/story-04-transformed-icons';
+import { Story05Component } from './stories/story-05-register-custom-icon';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { Story04Component } from './stories/story-04-transformed-icons';
     Story02Component,
     Story03Component,
     Story04Component,
+    Story05Component,
   ],
   exports: [
     DemoComponent
