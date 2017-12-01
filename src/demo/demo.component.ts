@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class DemoComponent {
   public static sharedStyles = [
     '.iconBox { display: flex; flex-wrap: wrap; }',
-    '.iconItem { color:#777; text-align:center; font-size:12px; padding:10px; background-color:#efefef; margin-right:10px; margin-top:10px; min-width:85px; max-width:100px; }',
+    '.iconItem { color:#777; text-align:center; font-size:12px; padding:10px; background-color:#efefef; margin-right:10px; margin-top:10px; min-width:110px; max-width:110px; }',
     '.iconCodeBox { color:#777; padding:10px; background-color:#efefef; margin-right:10px; margin-top:10px; }',
     '.label { display:inline-block; width:250px; }',
   ]
