@@ -44,7 +44,7 @@ For more complex examples see the source code of the Demo Stories above.
 ### Use an Icon SVG Path
 
 When you want to compose your own Icon based components and want full control over the icon graphic,
-you import and use the SVG Paths directly. See the [Icon Guide](/#/guide/iconing) for more details.
+you can import and use the SVG Paths directly. See the [Icon Guide](/#/guide/iconing) for more details.
 
 ```typescript
 import { Component } from '@angular/core';
