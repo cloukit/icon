@@ -70,3 +70,24 @@ export class FooComponent {
   CloukitIcons = CloukitIcons;
 }
 ```
+
+
+&nbsp;
+
+### Version Compatibility
+
+You can read the [release comments](https://github.com/cloukit/icon/releases) for full details.
+
+Please mind the the compatibility chart
+
+| Angular Version | Cloukit Component Version |
+|-----------------|---------------------------|
+| >=5.0.0         | 1.5.0 - current           |
+| >=4.0.0         | 1.0.0 - 1.4.0             |
+
+To install a specific version use:
+
+```
+yarn add @cloukit/icon@1.4.0
+```
+
