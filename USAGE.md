@@ -5,6 +5,7 @@ Import the needed modules in your main module.
 ```typescript
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+// (1) Package Imports
 import { CloukitIconModule } from '@cloukit/icon';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { CloukitIconModule } from '@cloukit/icon';
   ],
   imports: [
     CommonModule,
+    // (2) Register Imports
     CloukitIconModule,
   ],
   providers: [ ],
