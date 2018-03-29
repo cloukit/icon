@@ -34,6 +34,7 @@ Use it like so in your templates.
 <cloukit-icon
   size="large"
   foregroundIcon="check"
+  foregroundIconColor="#2185D4"
 >
 </cloukit-icon>
 ```
